@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\finalsolution.Domain\finalsolution.Domain.csproj" />
+    <ProjectReference Include="..\finalsolution.Model\finalsolution.Model.csproj" />
   </ItemGroup>
 
 </Project>

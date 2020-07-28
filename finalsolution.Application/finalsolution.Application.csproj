@@ -1,10 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\finalsolution.Database\finalsolution.Database.csproj" />
     <ProjectReference Include="..\finalsolution.Domain\finalsolution.Domain.csproj" />
     <ProjectReference Include="..\finalsolution.Model\finalsolution.Model.csproj" />
   </ItemGroup>
